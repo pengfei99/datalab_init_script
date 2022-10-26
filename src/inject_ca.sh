@@ -1,4 +1,4 @@
-echo "-----BEGIN CERTIFICATE-----
+sudo echo "-----BEGIN CERTIFICATE-----
 MIICGDCCAb6gAwIBAgIUEBGTVbGL5johNO8jXwYeCI5SH7cwCgYIKoZIzj0EAwIw
 WDELMAkGA1UEBhMCRlIxETAPBgNVBAcTCE1hbGFrb2ZmMRswGQYDVQQKExJDQVNE
 IFRydXN0IFNlcnZpY2UxGTAXBgNVBAMTEENBU0QgazhzIFJPT1QgQ0EwHhcNMjIx
@@ -13,4 +13,4 @@ IICTW127nI/RgU2Us9FZKAWNzZa7PiseKQIhALu+UcPN1KXL4EfuLsgZFOcmPMBH
 m6gYOKog2jghWFSz
 -----END CERTIFICATE-----" > /usr/local/share/ca-certificates/casd-k8s-root-ca.crt ;
 
-update-ca-certificates
+sudo update-ca-certificates
